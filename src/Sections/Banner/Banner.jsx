@@ -5,7 +5,7 @@ import { FaHashnode } from "react-icons/fa6";
 const Banner = () => {
     return (
         <div
-            className="hero min-h-screen"
+            className="hero min-h-screen py-10"
             style={{
                 backgroundImage: `url(${b})`,
             }}>
