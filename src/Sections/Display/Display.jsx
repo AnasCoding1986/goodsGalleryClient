@@ -3,12 +3,34 @@ import { useEffect, useState } from "react";
 const Display = () => {
     const [goods, setGoods] = useState([]);
     const [selectedGood, setSelectedGood] = useState(null);
+    const [currentPage, setCurrentPage] = useState(1);
+    const [totalPages, setTotalPages] = useState(1);
+
+    const fetchProducts = (page = 1) => {
+        fetch(`http://localhost:5000/products?page=${page}&limit=10`)
+            .then(res => res.json())
+            .then(data => {
+                setGoods(data.products);
+                setTotalPages(data.totalPages);
+                setCurrentPage(data.currentPage);
+            });
+    };
 
     useEffect(() => {
-        fetch('http://localhost:5000/products')
-            .then(res => res.json())
-            .then(data => setGoods(data))
-    }, []);
+        fetchProducts(currentPage);
+    }, [currentPage]);
+
+    const handleNextPage = () => {
+        if (currentPage < totalPages) {
+            setCurrentPage(currentPage + 1);
+        }
+    };
+
+    const handlePreviousPage = () => {
+        if (currentPage > 1) {
+            setCurrentPage(currentPage - 1);
+        }
+    };
 
     return (
         <div className="py-10">
@@ -34,6 +56,25 @@ const Display = () => {
                         </div>
                     ))}
                 </div>
+            </div>
+
+            {/* Pagination Controls */}
+            <div className="flex justify-center mt-4">
+                <button
+                    onClick={handlePreviousPage}
+                    className="btn"
+                    disabled={currentPage === 1}
+                >
+                    Previous
+                </button>
+                <span className="mx-4">Page {currentPage} of {totalPages}</span>
+                <button
+                    onClick={handleNextPage}
+                    className="btn"
+                    disabled={currentPage === totalPages}
+                >
+                    Next
+                </button>
             </div>
 
             {selectedGood && (
