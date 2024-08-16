@@ -1,7 +1,7 @@
 [
     {
       "productName": "Wireless Mouse",
-      "productImage": "https://ibb.co/mNBHjqg",
+      "productImage": "https://i.ibb.co/SfxKjnG/1.jpg",
       "description": "Ergonomic wireless mouse with adjustable DPI.",
       "price": 29,
       "category": "Electronics",
@@ -10,7 +10,7 @@
     },
     {
       "productName": "Mechanical Keyboard",
-      "productImage": "https://ibb.co/hV1cbpr",
+      "productImage": "https://i.ibb.co/rHf3Ynq/2.jpg",
       "description": "Mechanical keyboard with customizable RGB lighting.",
       "price": 79,
       "category": "Electronics",
@@ -19,7 +19,7 @@
     },
     {
       "productName": "Gaming Monitor",
-      "productImage": "https://ibb.co/pXr05fb",
+      "productImage": "https://i.ibb.co/QmjbtPp/3.jpg",
       "description": "27-inch 144Hz gaming monitor with 1ms response time.",
       "price": 299,
       "category": "Electronics",
@@ -28,7 +28,7 @@
     },
     {
       "productName": "Bluetooth Headphones",
-      "productImage": "https://ibb.co/DzFdJYT",
+      "productImage": "https://i.ibb.co/VJG61x5/4.jpg",
       "description": "Over-ear Bluetooth headphones with noise-cancellation.",
       "price": 129,
       "category": "Electronics",
@@ -37,7 +37,7 @@
     },
     {
       "productName": "Smartphone",
-      "productImage": "https://ibb.co/2qLm8BL",
+      "productImage": "https://i.ibb.co/kKrk3Fr/1.jpg",
       "description": "Latest model smartphone with 128GB storage and 5G support.",
       "price": 699,
       "category": "Electronics",
@@ -46,7 +46,7 @@
     },
     {
       "productName": "Laptop Backpack",
-      "productImage": "https://ibb.co/rvY9BL0",
+      "productImage": "https://i.ibb.co/pncqHsw/2.jpg",
       "description": "Durable laptop backpack with multiple compartments.",
       "price": 49,
       "category": "Accessories",
@@ -55,7 +55,7 @@
     },
     {
       "productName": "4K Action Camera",
-      "productImage": "https://ibb.co/vYkQs5R",
+      "productImage": "https://i.ibb.co/dgDLb9x/3.jpg",
       "description": "Waterproof 4K action camera with Wi-Fi and remote control.",
       "price": 199,
       "category": "Electronics",
@@ -64,7 +64,7 @@
     },
     {
       "productName": "Fitness Tracker",
-      "productImage": "https://ibb.co/4jkbm36",
+      "productImage": "https://i.ibb.co/P5k2m07/6.jpg",
       "description": "Fitness tracker with heart rate monitor and sleep tracking.",
       "price": 59,
       "category": "Wearables",
@@ -73,7 +73,7 @@
     },
     {
       "productName": "Portable Speaker",
-      "productImage": "https://ibb.co/0qvQJ4P",
+      "productImage": "https://i.ibb.co/5Tw2cpq/2.jpg",
       "description": "Portable Bluetooth speaker with 12-hour battery life.",
       "price": 89,
       "category": "Electronics",
@@ -82,7 +82,7 @@
     },
     {
       "productName": "Wireless Charger",
-      "productImage": "https://ibb.co/QXcCHRG",
+      "productImage": "https://i.ibb.co/8XBdxpV/1.jpg",
       "description": "Fast wireless charger for smartphones and tablets.",
       "price": 39,
       "category": "Accessories",
@@ -91,7 +91,7 @@
     },
     {
       "productName": "Smartwatch",
-      "productImage": "https://ibb.co/wNxwgcY",
+      "productImage": "https://i.ibb.co/ns5nmPR/6.jpg",
       "description": "Smartwatch with fitness tracking and customizable watch faces.",
       "price": 149,
       "category": "Wearables",
@@ -100,7 +100,7 @@
     },
     {
       "productName": "Wireless Earbuds",
-      "productImage": "https://ibb.co/QFc8thv",
+      "productImage": "https://i.ibb.co/BVP4Fv2/5.jpg",
       "description": "True wireless earbuds with touch controls and charging case.",
       "price": 99,
       "category": "Electronics",
@@ -109,7 +109,7 @@
     },
     {
       "productName": "Gaming Chair",
-      "productImage": "https://ibb.co/Z1qzv5T",
+      "productImage": "https://i.ibb.co/k6N2zjc/1.jpg",
       "description": "Ergonomic gaming chair with adjustable armrests and lumbar support.",
       "price": 249,
       "category": "Furniture",
@@ -118,7 +118,7 @@
     },
     {
       "productName": "External SSD",
-      "productImage": "https://ibb.co/wcwWhYG",
+      "productImage": "https://i.ibb.co/VwQSY3n/2.jpg",
       "description": "Portable external SSD with 1TB capacity and USB-C interface.",
       "price": 159,
       "category": "Electronics",
@@ -127,7 +127,7 @@
     },
     {
       "productName": "Electric Scooter",
-      "productImage": "https://ibb.co/4VpvFtc",
+      "productImage": "https://i.ibb.co/ZMx4fX3/3.jpg",
       "description": "Electric scooter with 15-mile range and foldable design.",
       "price": 399,
       "category": "Transportation",
@@ -136,7 +136,7 @@
     },
     {
       "productName": "Drone",
-      "productImage": "https://ibb.co/1mRzPG5",
+      "productImage": "https://i.ibb.co/hm2Y4Fj/1.jpg",
       "description": "4K camera drone with GPS and follow-me mode.",
       "price": 499,
       "category": "Electronics",
@@ -145,7 +145,7 @@
     },
     {
       "productName": "VR Headset",
-      "productImage": "https://ibb.co/QfKgzkp",
+      "productImage": "https://i.ibb.co/SP3jWc5/2.jpg",
       "description": "Virtual reality headset compatible with PC and gaming consoles.",
       "price": 299,
       "category": "Electronics",
@@ -154,7 +154,7 @@
     },
     {
       "productName": "Smart Home Hub",
-      "productImage": "https://ibb.co/W2LdKtx",
+      "productImage": "https://i.ibb.co/CHfX021/3.jpg",
       "description": "Smart home hub for controlling lights, locks, and cameras.",
       "price": 129,
       "category": "Smart Home",
@@ -163,7 +163,7 @@
     },
     {
       "productName": "Robot Vacuum",
-      "productImage": "https://ibb.co/8sbvxq5",
+      "productImage": "https://i.ibb.co/C86C9g7/1.jpg",
       "description": "Robot vacuum cleaner with smart mapping and self-charging.",
       "price": 249,
       "category": "Home Appliances",
@@ -172,7 +172,7 @@
     },
     {
       "productName": "Electric Toothbrush",
-      "productImage": "https://ibb.co/DGGJMPY",
+      "productImage": "https://i.ibb.co/z88M2WF/2.jpg",
       "description": "Electric toothbrush with multiple brushing modes and timer.",
       "price": 79,
       "category": "Personal Care",
@@ -181,7 +181,7 @@
     },
     {
       "productName": "Digital Camera",
-      "productImage": "https://ibb.co/M7S0bMZ",
+      "productImage": "https://i.ibb.co/CQ8Gqhm/1.jpg",
       "description": "Digital camera with 20MP sensor and 4K video recording.",
       "price": 349,
       "category": "Electronics",
@@ -190,7 +190,7 @@
     },
     {
       "productName": "Coffee Maker",
-      "productImage": "https://ibb.co/55mLqkR",
+      "productImage": "https://i.ibb.co/y8tqLpQ/4.jpg",
       "description": "Automatic coffee maker with programmable settings.",
       "price": 99,
       "category": "Home Appliances",
@@ -199,7 +199,7 @@
     },
     {
       "productName": "Yoga Mat",
-      "productImage": "https://ibb.co/yF2t9rS",
+      "productImage": "https://i.ibb.co/5hZm0PF/1.jpg",
       "description": "Non-slip yoga mat with 6mm thickness for extra comfort.",
       "price": 29,
       "category": "Sports",
@@ -208,7 +208,7 @@
     },
     {
       "productName": "Blender",
-      "productImage": "https://ibb.co/DVtR1pL",
+      "productImage": "https://i.ibb.co/2nykFN5/2.jpg",
       "description": "High-speed blender with multiple blending modes.",
       "price": 69,
       "category": "Home Appliances",
@@ -217,7 +217,7 @@
     },
     {
       "productName": "Camping Tent",
-      "productImage": "https://ibb.co/ZMG6w6w",
+      "productImage": "https://i.ibb.co/jrbvxvx/5.jpg",
       "description": "4-person camping tent with waterproof and UV protection.",
       "price": 149,
       "category": "Outdoor",
@@ -226,7 +226,7 @@
     },
     {
       "productName": "Electric Kettle",
-      "productImage": "https://ibb.co/Vgq4stg",
+      "productImage": "https://i.ibb.co/2vk4Tyv/1.jpg",
       "description": "Electric kettle with rapid boiling and auto shut-off.",
       "price": 39,
       "category": "Home Appliances",
@@ -235,7 +235,7 @@
     },
     {
       "productName": "Inflatable Kayak",
-      "productImage": "https://ibb.co/cCMGKDW",
+      "productImage": "https://i.ibb.co/7R8wx23/3.jpg",
       "description": "2-person inflatable kayak with oars and pump.",
       "price": 249,
       "category": "Outdoor",
@@ -244,7 +244,7 @@
     },
     {
       "productName": "Air Fryer",
-      "productImage": "https://ibb.co/NxJDz0m",
+      "productImage": "https://i.ibb.co/8MfvVyd/4.jpg",
       "description": "Large capacity air fryer with digital controls.",
       "price": 119,
       "category": "Home Appliances",
@@ -253,7 +253,7 @@
     },
     {
       "productName": "Electric Bike",
-      "productImage": "https://ibb.co/GVdtJBK",
+      "productImage": "https://i.ibb.co/SK6dxWh/1.jpg",
       "description": "Electric bike with 20-mile range and pedal assist.",
       "price": 999,
       "category": "Transportation",
@@ -262,7 +262,7 @@
     },
     {
       "productName": "Noise-Canceling Earbuds",
-      "productImage": "https://ibb.co/9H0YRFM",
+      "productImage": "https://i.ibb.co/qY81btZ/7.jpg",
       "description": "Wireless noise-canceling earbuds with long battery life.",
       "price": 149,
       "category": "Electronics",
@@ -271,7 +271,7 @@
     },
     {
       "productName": "Electric Grill",
-      "productImage": "https://ibb.co/RcT8G76",
+      "productImage": "https://i.ibb.co/njMpqR1/1.jpg",
       "description": "Portable electric grill with adjustable temperature control.",
       "price": 89,
       "category": "Home Appliances",
@@ -280,7 +280,7 @@
     },
     {
       "productName": "Running Shoes",
-      "productImage": "https://ibb.co/qDGJDf7",
+      "productImage": "https://i.ibb.co/BfDnfxc/3.jpg",
       "description": "Lightweight running shoes with breathable mesh upper.",
       "price": 79,
       "category": "Sports",
@@ -289,7 +289,7 @@
     },
     {
       "productName": "Digital Thermometer",
-      "productImage": "https://ibb.co/Gvxykv5",
+      "productImage": "https://i.ibb.co/Z6L5K6M/2.jpg",
       "description": "Instant-read digital thermometer with backlit display.",
       "price": 19,
       "category": "Personal Care",
@@ -298,7 +298,7 @@
     },
     {
       "productName": "Smart Light Bulbs",
-      "productImage": "https://ibb.co/vjfmzHd",
+      "productImage": "https://i.ibb.co/P6J4CNW/3.jpg",
       "description": "Smart light bulbs with voice control and color-changing feature.",
       "price": 49,
       "category": "Smart Home",
@@ -307,7 +307,7 @@
     },
     {
       "productName": "Baby Monitor",
-      "productImage": "https://ibb.co/YyPN8d4",
+      "productImage": "https://i.ibb.co/4YKFMSw/6.jpg",
       "description": "Video baby monitor with night vision and two-way audio.",
       "price": 129,
       "category": "Baby Products",
@@ -316,7 +316,7 @@
     },
     {
       "productName": "Adjustable Dumbbells",
-      "productImage": "https://ibb.co/xLrt1br",
+      "productImage": "https://i.ibb.co/2hp1vrp/1.jpg",
       "description": "Pair of adjustable dumbbells with a weight range of 5-50 lbs.",
       "price": 199,
       "category": "Sports",
@@ -325,7 +325,7 @@
     },
     {
       "productName": "Cordless Vacuum",
-      "productImage": "https://ibb.co/8PccxBF",
+      "productImage": "https://i.ibb.co/F8VVYWG/2.jpg",
       "description": "Cordless vacuum cleaner with powerful suction and long battery life.",
       "price": 179,
       "category": "Home Appliances",
@@ -334,7 +334,7 @@
     },
     {
       "productName": "Gaming Console",
-      "productImage": "https://ibb.co/P45RDD8",
+      "productImage": "https://i.ibb.co/ZKh322C/1.jpg",
       "description": "Next-gen gaming console with ultra-high definition graphics.",
       "price": 499,
       "category": "Electronics",
@@ -343,7 +343,7 @@
     },
     {
       "productName": "Waterproof Jacket",
-      "productImage": "https://ibb.co/6ZL6h5Z",
+      "productImage": "https://i.ibb.co/3sQtXHs/4.jpg",
       "description": "Lightweight waterproof jacket with breathable fabric.",
       "price": 129,
       "category": "Clothing",
@@ -352,7 +352,7 @@
     },
     {
         "productName": "Camping Tent",
-        "productImage": "https://ibb.co/ZMG6w6w",
+        "productImage": "https://i.ibb.co/jrbvxvx/5.jpg",
         "description": "4-person camping tent with waterproof and UV protection.",
         "price": 149,
         "category": "Outdoor",
