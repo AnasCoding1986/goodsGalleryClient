@@ -8,41 +8,37 @@ const Display = () => {
     const [totalPages, setTotalPages] = useState(1);
     const [priceSort, setPriceSort] = useState("");
     const [dateSort, setDateSort] = useState("");
-    const [searchTerm, setSearchTerm] = useState("");
-    const [searchTriggered, setSearchTriggered] = useState(false);
 
-    // Function to fetch products
-    const fetchProducts = (page = 1, priceSortOption = "", dateSortOption = "", searchQuery = "") => {
-        console.log(`Fetching products with search: ${searchQuery}`); // Debugging statement
-        fetch(`http://localhost:5000/products?page=${page}&limit=10&search=${encodeURIComponent(searchQuery)}`)
+    const fetchProducts = (page = 1, priceSortOption = "", dateSortOption = "") => {
+        fetch(`http://localhost:5000/products?page=${page}&limit=10`)
             .then(res => res.json())
             .then(data => {
                 let sortedGoods = data.products;
-
+    
                 // Sort based on price sort option
                 if (priceSortOption === "low-to-high") {
                     sortedGoods.sort((a, b) => a.price - b.price);
                 } else if (priceSortOption === "high-to-low") {
                     sortedGoods.sort((a, b) => b.price - a.price);
                 }
-
+    
                 // Sort based on date sort option after price sorting
                 if (dateSortOption === "newest-first") {
                     sortedGoods.sort((a, b) => new Date(b.creationDate) - new Date(a.creationDate));
                 } else if (dateSortOption === "oldest-first") {
                     sortedGoods.sort((a, b) => new Date(a.creationDate) - new Date(b.creationDate));
                 }
-
+    
                 setGoods(sortedGoods);
                 setTotalPages(data.totalPages);
                 setCurrentPage(data.currentPage);
-            })
-            .catch(error => console.error("Error fetching products:", error)); // Error handling
+            });
     };
+    
 
     useEffect(() => {
-        fetchProducts(currentPage, priceSort, dateSort, searchTerm);
-    }, [currentPage, priceSort, dateSort, searchTerm]);
+        fetchProducts(currentPage, priceSort, dateSort);
+    }, [currentPage, priceSort, dateSort]);
 
     const handleNextPage = () => {
         if (currentPage < totalPages) {
@@ -64,15 +60,6 @@ const Display = () => {
         setDateSort(event.target.value);
     };
 
-    const handleSearchChange = (event) => {
-        setSearchTerm(event.target.value);
-    };
-
-    const handleSearchClick = () => {
-        setSearchTriggered(true);
-        fetchProducts(currentPage, priceSort, dateSort, searchTerm);
-    };
-
     return (
         <div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 bg-slate-500">
@@ -85,14 +72,9 @@ const Display = () => {
                             className="p-[4px] flex-grow"
                             type="text"
                             placeholder="Product name"
-                            value={searchTerm}
-                            onChange={handleSearchChange}
                             required={true}
                         />
-                        <button
-                            className="bg-slate-300 p-2 text-red-950 flex-shrink-0"
-                            onClick={handleSearchClick}
-                        >
+                        <button className="bg-slate-300 p-2 text-red-950 flex-shrink-0">
                             <CiSearch />
                         </button>
                     </div>
