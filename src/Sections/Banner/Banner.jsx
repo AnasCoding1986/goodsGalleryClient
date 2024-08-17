@@ -20,11 +20,11 @@ const Banner = () => {
                         <div className="border-[1px] border-dotted rounded-md border-white p-4">
                             <label htmlFor="">Search by product name</label><br />
                             <div className="flex mt-1">
-                                <input 
-                                    className="p-[4px] flex-grow" 
-                                    type="text" 
-                                    placeholder="Product name" 
-                                    required={true} 
+                                <input
+                                    className="p-[4px] flex-grow"
+                                    type="text"
+                                    placeholder="Product name"
+                                    required={true}
                                 />
                                 <button className="bg-slate-300 p-2 text-red-950 flex-shrink-0">
                                     <CiSearch />
@@ -34,35 +34,40 @@ const Banner = () => {
                         <div className="border-[1px] border-dotted rounded-md border-white p-4">
                             <label htmlFor="">Search by Category</label><br />
                             <div className="flex mt-1">
-                                <input 
-                                    className="p-[4px] flex-grow" 
-                                    type="text" 
-                                    placeholder="Category" 
-                                    required={true} 
+                                <input
+                                    className="p-[4px] flex-grow"
+                                    type="text"
+                                    placeholder="Category"
+                                    required={true}
                                 />
                                 <button className="bg-slate-300 p-2 text-red-950 flex-shrink-0">
                                     <CiSearch />
                                 </button>
                             </div>
                         </div>
-                        <div className="border-[1px] border-dotted rounded-md border-white p-4">
-                            <label htmlFor="">Sort by price/date</label><br />
-                            <div className="flex mt-1">
-                                <input 
-                                    className="p-[4px] flex-grow" 
-                                    type="text" 
-                                    placeholder="Price/Date" 
-                                    required={true} 
-                                />
-                                <button className="bg-slate-300 p-2 text-red-950 flex-shrink-0">
-                                    <CiSearch />
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+
+
+
+                        <div className="border-[1px] border-dotted rounded-md border-white p-4"><label htmlFor="price-sort" className="block font-semibold">Sort by price</label><br /><div className="mt-2"><select
+                            id="price-sort"
+                            name="price-sort"
+                            className="p-2 bg-slate-300 text-red-950 border border-gray-300 rounded-md"
+                        ><option value="" disabled selected>Select a sort option</option><option value="low-to-high">Price: Low to High</option><option value="high-to-low">Price: High to Low</option></select></div></div>
+
+
+
+
+                        <div className="border-[1px] border-dotted rounded-md border-white p-4"><label htmlFor="price-sort" className="block font-semibold">Sort by Date</label><br /><div className="mt-2"><select
+                            id="price-sort"
+                            name="price-sort"
+                            className="p-2 bg-slate-300 text-red-950 border border-gray-300 rounded-md"
+                        ><option value="" disabled selected>Select a sort option</option><option value="newest-first">Newest First</option></select></div></div>
+
+
                 </div>
             </div>
         </div>
+        </div >
     );
 };
 
