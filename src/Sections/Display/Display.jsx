@@ -10,7 +10,7 @@ const Display = () => {
     const [dateSort, setDateSort] = useState("");
 
     const fetchProducts = (page = 1, priceSortOption = "", dateSortOption = "") => {
-        fetch(`http://localhost:5000/products?page=${page}&limit=10`)
+        fetch(`https://goods-gallery-server.vercel.app/products?page=${page}&limit=10`)
             .then(res => res.json())
             .then(data => {
                 let sortedGoods = data.products;
