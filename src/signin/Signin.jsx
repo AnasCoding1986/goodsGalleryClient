@@ -47,6 +47,7 @@ const Signin = () => {
                         <img src={login} className="w-6/12 rounded-lg shadow-2xl" />
                     </div>
                     <div className="card w-1/2 max-w-sm shadow-2xl bg-base-100">
+                    <h2 className="text-center text-xl font-bold mt-2">Sign In</h2>
                         <form onSubmit={handleLogin} className="card-body">
                             <div className="form-control">
                                 <label className="label">
