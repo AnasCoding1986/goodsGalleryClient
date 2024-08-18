@@ -1,11 +1,12 @@
 import { useContext } from "react";
 import login from "../assets/login.jpg"
 import { AuthContext } from "../provider/AuthProvider";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Signup = () => {
 
     const {createUser} = useContext(AuthContext);
+    const navigate = useNavigate();
 
     const handleLogin = e => {
         e.preventDefault();
@@ -17,6 +18,7 @@ const Signup = () => {
             .then(res => {
                 const user = res.user;
                 console.log(user);
+                navigate('/')
                 // axiosPublic.post('/users', userInfo)
                 //     .then(res => {
                 //         if (res.data.insertedId) {

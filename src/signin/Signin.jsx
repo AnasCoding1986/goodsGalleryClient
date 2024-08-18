@@ -1,11 +1,11 @@
 import { useContext } from "react";
 import login from "../assets/login.jpg"
 import { AuthContext } from "../provider/AuthProvider";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Signin = () => {
-
     const {signIn} = useContext(AuthContext);
+    const navigate = useNavigate();
 
     const handleLogin = e => {
         e.preventDefault();
@@ -17,6 +17,7 @@ const Signin = () => {
             .then(res => {
                 const user = res.user;
                 console.log(user);
+                navigate('/')
                 // axiosPublic.post('/users', userInfo)
                 //     .then(res => {
                 //         if (res.data.insertedId) {
@@ -67,9 +68,9 @@ const Signin = () => {
                                 </label>
                                 <input onBlur={handleValidateCaptcha} type="text" name='captcha' placeholder="Type the captcha" className="input input-bordered" required />
                             </div> */}
-                            {/* <div className="form-control mt-6">
-                                <input disabled={disabled} className="btn bg-[#A7E6FF] text-black border-none font-bold btn-primary" type="submit" value="login" />
-                            </div> */}
+                            <div className="form-control mt-6">
+                                <input className="btn bg-[#A7E6FF] text-black border-none font-bold btn-primary" type="submit" value="login" />
+                            </div>
                         </form>
                         {/* <div className='mb-5 mx-auto w-10/12'>
                         <button onClick={handleGoogleSignIn} className="btn btn-outline border-[#3572EF] w-full"><span className='text-xl mr-2'><FcGoogle /></span><span className='text-[#3572EF] font-bold ml-2'>Google</span></button>
